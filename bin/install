@@ -1,8 +1,8 @@
 #!/bin/bash
 export CB_RPM='couchbase-server-enterprise-3.0.2-centos6.x86_64.rpm'
 export CB_DOWNLOAD="http://packages.couchbase.com/releases/3.0.2/$CB_RPM"
-export OPENSSL_RPM='openssl-1.0.1e-30.el6_6.2.x86_64.rpm'
-export OPENSSL_DOWNLOAD="ftp://mirror.switch.ch/pool/4/mirror/scientificlinux/6.6/x86_64/updates/security/$OPENSSL_RPM"
+export OPENSSL_RPM='openssl-1.0.1e-42.el7.x86_64.rpm'
+export OPENSSL_DOWNLOAD="ftp://rpmfind.net/linux/centos/7.1.1503/os/x86_64/Packages/$OPENSSL_RPM"
 
 export CB_DL_TARGET=$OPENSHIFT_CB_DIR/Download
 export CB_TARGET=$OPENSHIFT_DATA_DIR
