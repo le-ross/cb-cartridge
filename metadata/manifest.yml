@@ -36,7 +36,7 @@ Cart-Data:
     Description: "The port" 
 Provides:
   - couchbase-server
-Source-Url: https://github.com/dmaier-couchbase/cb-cartridge.git
+Source-Url: https://github.com/le-ross/cb-cartridge.git
 Publishes:
   publish-http-url:
     Type: "NET_TCP:httpd-proxy-info"
